@@ -1,0 +1,147 @@
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    height: 576px;
+}
+
+.song_choose {
+    height: inherit;
+    width: inherit;
+    background-image: url('../res/img/bg_main.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.song {
+    width: 100%;
+    height: 50%;
+    background-image: url('../res/img/cloud.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;       
+}
+
+.animated {
+    animation: dance 2s infinite alternate linear;
+}
+
+.song_1 {
+    background-image: url('../res/img/star.png'), url('../res/img/cloud.png');
+}
+
+.song_2 {
+    background-image: url('../res/img/macdonald.png'), url('../res/img/cloud.png');
+}
+
+.song_3 {
+    background-image: url('../res/img/jaques.png'), url('../res/img/cloud.png');
+}
+
+.song_4 {
+    background-image: url('../res/img/sunshine.png'), url('../res/img/cloud.png');
+}
+
+.col {
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+}
+
+.select {
+    width: 100%;
+    height: inherit;
+    vertical-align: middle;
+    background-image: url('../res/img/select.png'), url('../res/img/select_bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;   
+    background-position: center; 
+}
+
+.song_play {
+    height: inherit;
+    width: inherit;
+    background-image: url('../res/img/bg_play.png');
+    background-size: 100%;
+    background-repeat: no-repeat;    
+}
+
+.hidden {
+    display: none;
+}
+
+.row {
+    width: inherit;
+    height: 50%;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+}
+
+.instrument {
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;       
+    animation: dance 2s infinite alternate linear;
+}
+
+.spacer {
+    height: 100%;
+    width: 11%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: top;
+}
+
+.piano {
+    background-image: url('../res/img/piano.png'), url('../res/img/cloud.png');
+}
+.piano_on {
+    background-image: url('../res/img/piano.png'), url('../res/img/cloud_on.png');
+}
+
+.guitar {
+    background-image: url('../res/img/guitar.png'), url('../res/img/cloud.png');
+}
+.guitar_on {
+    background-image: url('../res/img/guitar.png'), url('../res/img/cloud_on.png');
+}
+
+.drums {
+    background-image: url('../res/img/drums.png'), url('../res/img/cloud.png');
+}
+.drums_on {
+    background-image: url('../res/img/drums.png'), url('../res/img/cloud_on.png');
+}
+
+.saxophone {
+    background-image: url('../res/img/saxophone.png'), url('../res/img/cloud.png');
+}
+.saxophone_on {
+    background-image: url('../res/img/saxophone.png'), url('../res/img/cloud_on.png');
+}
+
+.tambourine {
+    background-image: url('../res/img/tambourine.png'), url('../res/img/cloud.png');
+}
+.tambourine_on {
+    background-image: url('../res/img/tambourine.png'), url('../res/img/cloud_on.png');
+}
+
+.back {
+    vertical-align: bottom;
+    width: 100%;
+}
+
+@keyframes dance {
+    0% {
+        transform: scale(0.95) rotate(-2deg);
+    }
+    50% {
+        transform: scale(1.0) rotate(0deg);        
+    }
+    100% {
+        transform: scale(0.95) rotate(2deg);
+    }
+}
