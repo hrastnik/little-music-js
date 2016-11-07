@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
     res.sendFile('index.html', { root: path.join(__dirname) });
 });
 
-var port = process.PORT || 3333;
+var port = process.env.PORT || 3333;
 
 server.listen(port, function (err) {
     if (err) throw err;
